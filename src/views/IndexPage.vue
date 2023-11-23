@@ -34,13 +34,13 @@ export default {
     <IntroductionPart />
 
     <!-- About Section -->
-    <AboutMe />
+    <AboutMe id="about" />
 
     <!-- Projects Section -->
-    <ProjectCards />
+    <ProjectCards id="projects" />
 
     <!-- Contact Section -->
-    <ContactCombined />
+    <ContactCombined id="contact" />
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white text-center py-4">

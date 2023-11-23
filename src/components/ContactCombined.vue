@@ -4,11 +4,14 @@ import ContactLinks from './Contacts/ContactLinks.vue';
 
 export default {
     name: "ContactCombined",
+    props: {
+        id: String
+    },
     components: { ContactLinks }
 }
 </script>
 <template>
-    <section class="py-12 bg-gray-400">
+    <section class="py-12 bg-gray-400" :id="id">
         <div class="mx-auto">
             <h2 class="text-2xl font-bold mb-8 text-center">How to Connect? 🤔</h2>
             <!-- Add your contact form or details here -->

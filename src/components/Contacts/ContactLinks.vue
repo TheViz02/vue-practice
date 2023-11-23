@@ -23,7 +23,7 @@ export default {
 
 <template>
     <div class="flex justify-center">
-        <div class="join bg-primary lg:join-horizontal">
+        <div class="join bg-primary hover:bg-secondary lg:join-horizontal">
             <a :href="links.instagram" target="_blank" class="btn join-item bg-primary">
                 <svg-icon type="mdi" :path="instagram" class="mr-2" />
                 Instagram

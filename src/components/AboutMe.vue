@@ -1,6 +1,14 @@
+<script>
+export default {
+    name: 'AboutMe',
+    props: {
+        id: String
+    }
+}
+</script>
 <template>
     <!-- About Section -->
-    <section class="bg-gray-700 py-16" id="about">
+    <section class="bg-gray-700 py-16" :id="id">
         <div class="container mx-auto">
             <h1 class="text-2xl font-bold mb-8 text-center">About Me</h1>
             <p class="mr-8 ml-8">

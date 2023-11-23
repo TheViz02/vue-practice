@@ -1,9 +1,10 @@
 <script>
+import contents from '@/assets/contents.json'
 
 export default {
     name: "ProjectCards",
     data() {
-        return { projectCarousal: [] }
+        return { projectCarousal: [], contents: contents }
     },
     mounted() {
         this.getProjectCarousel();
@@ -36,7 +37,10 @@ export default {
         <div class="container mx-auto">
             <h2 class="text-2xl font-bold mb-8 text-center">My Projects</h2>
             <p class="text-lg text-center mb-5">
-                Here are several projects I did, They all are present in my Github Profile and here available too!
+                Here are several projects I did, They all are present in my
+                <a class="link" :href="contents.github">Github Profile</a>
+                and
+                here available too!
             </p>
             <div class="flex justify-center">
                 <div class="carousel carousel-center max-w-md p-4 space-x-4 bg-primary rounded-box">
@@ -54,8 +58,10 @@ export default {
                                     <h3>Last Commit - {{ project.pushed_at }}</h3>
                                     <p>{{ project.description }}</p>
                                     <div class="card-actions justify-end">
-                                        <a :href="project.projectPath" target="_blank" class="btn btn-primary">Visit
-                                            Here!</a>
+                                        <a :href="project.projectPath" target="_blank"
+                                            class="btn btn-primary hover:bg-secondary">
+                                            Visit Here!
+                                        </a>
                                     </div>
                                 </div>
                             </div>
