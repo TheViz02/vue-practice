@@ -2,5 +2,20 @@
     "instagram": "https://www.instagram.com/theviz02",
     "linkedin": "https://www.linkedin.com/in/bhupendra-madhu/",
     "github": "https://github.com/TheViz02",
-    "email": "madhu.bhupendra@gmail.com"
+    "email": "madhu.bhupendra@gmail.com",
+    "skills": [
+        "Javascript",
+        "PHP",
+        "NodeJS",
+        "Laravel",
+        "Express.JS",
+        "Vue.JS",
+        "MySQL",
+        "Mongo DB",
+        "HTML & CSS",
+        "Communication",
+        "API Development"
+    ],
+    "introContent": "Skilled web developer with a passion for building high-quality web applications. I am proficient in PHP, JavaScript, and a variety of web platforms. I have experience in API development, database integration, user-friendly data presentation, and creating visually appealing web interfaces.",
+    "aboutSectionContent": "Hello, I am Bhupendra Madhu, a skilled web developer with a passion for building high-quality web applications. I am proficient in PHP, JavaScript, and a variety of web platforms. I have experience in API development, database integration, user-friendly data presentation, and creating visually appealing web interfaces. <br />I have a strong understanding of the entire web development process from front-end to back-end, with proficiency in HTML, CSS, JavaScript, PHP, MySQL, and other web development technologies. I am familiar with a variety of web and back-end development frameworks, such as Laravel, Express.js, and Vue.js. <br />I have a proven track record of success in developing and delivering high-quality web applications. I am a self-motivated and driven individual with excellent communication and problem-solving skills. I look forward to bringing my skills and experience to new projects and challenges."
 }
