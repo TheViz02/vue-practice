@@ -5,9 +5,17 @@
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": [
+        "src/*"
+      ]
     }
   },
-  "include": ["src/**/*.js", "src/**/*.vue", "src/**/*.css"],
-  "exclude": ["node_modules"]
+  "include": [
+    "src/**/*.js",
+    "src/**/*.vue",
+    "src/**/*.css"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
