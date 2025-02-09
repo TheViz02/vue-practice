@@ -50,7 +50,7 @@ export default {
                 <h2>My Skills</h2>
                 <div class="">
                     <template v-for="(skill, key) in skills" v-bind:key="key">
-                        <button :class="skill.classNameStr">
+                        <button type="button" :class="skill.classNameStr">
                             {{ skill.name }}
                         </button>
                     </template>

@@ -13,7 +13,7 @@ export default {
                 <a href="#" class="hover:text-gray-400">Home</a>
                 <a href="#about" class="hover:text-gray-400">About</a>
                 <a href="#projects" class="hover:text-gray-400">Projects</a>
-                <a href="#contact" class="hover:text-gray-400">Contact</a>
+                <a href="#contact" class="hover:text-gray-400">Connect!!</a>
             </div>
         </div>
     </nav>
